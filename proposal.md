@@ -1,2 +1,2 @@
-- [Proposal Notes Front](documents/sapien_notes_front.png)
-- [Proposal Notes Back](documents/sapien_notes_back.png)
+- [Proposal Notes Front](documents/sapien_notes_front.pdf)
+- [Proposal Notes Back](documents/sapien_notes_back.pdf)
