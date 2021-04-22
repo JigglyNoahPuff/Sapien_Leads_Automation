@@ -1,1 +1,2 @@
-Details on the proposal
+- [Proposal Notes Front](documents/sapien_notes_front.png)
+- [Proposal Notes Back](documents/sapien_notes_back.png)
