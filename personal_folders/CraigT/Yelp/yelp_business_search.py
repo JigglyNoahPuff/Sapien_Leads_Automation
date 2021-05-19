@@ -29,7 +29,7 @@ for business in raw_data_dict["businesses"]:
 print(business_info_list)
 #%%
 # put all our data into a pandas dataframe and export as a csv
-business_df = pd.DataFrame(business_info_list)
+business_df = pd.json_normalize(business_info_list)
 business_df.to_csv("business_details.csv")
 
 print(business_df.head(5))
