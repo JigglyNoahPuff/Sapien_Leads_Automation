@@ -24,14 +24,24 @@ for business in raw_data_dict["businesses"]:
     business_url = f"https://api.yelp.com/v3/businesses/{business['id']}"
     req = requests.get(business_url, headers=headers)
     dic = json.loads(req.text)
+
     business_info_list.append(dic)
 
-print(business_info_list)
+# save the individual json file so its easier to look at
+#with open('fist_business.json', 'w') as f:
+    #json.dump(business_info_list[0],fp=f, indent=4)
+
+#print(business_info_list[0])
+
 #%%
 # put all our data into a pandas dataframe and export as a csv
-business_df = pd.json_normalize(business_info_list)
-business_df.to_csv("business_details.csv")
+meta3 = ['id','alias','name','image_url','is_claimed','is_closed','url','phone','display_phone','review_count','rating','location','coordinates','photos','hours']
+business_df = pd.json_normalize(business_info_list, record_path=['categories'], meta=meta3, errors='ignore', record_prefix='categories_')
 
-print(business_df.head(5))
+csv_name = input("What do you want to name your file: ")
+business_df.to_csv(f"{csv_name}.csv")
+
 
 # %%
+
+

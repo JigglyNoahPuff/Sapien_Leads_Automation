@@ -1,0 +1,91 @@
+{
+    "id": "4mDnxk4oezRMlVUXo5MJ8A",
+    "alias": "holmes-chiropractic-american-fork",
+    "name": "Holmes Chiropractic",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/DAa4iV5f-q_xMx-i3P3UDw/o.jpg",
+    "is_claimed": true,
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/holmes-chiropractic-american-fork?adjust_creative=hE8bi2YODO-vfPOp0t5Rkw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=hE8bi2YODO-vfPOp0t5Rkw",
+    "phone": "+18016921027",
+    "display_phone": "(801) 692-1027",
+    "review_count": 9,
+    "categories": [
+        {
+            "alias": "chiropractors",
+            "title": "Chiropractors"
+        }
+    ],
+    "rating": 5.0,
+    "location": {
+        "address1": "477 W 30th N",
+        "address2": null,
+        "address3": "",
+        "city": "American Fork",
+        "zip_code": "84003",
+        "country": "US",
+        "state": "UT",
+        "display_address": [
+            "477 W 30th N",
+            "American Fork, UT 84003"
+        ],
+        "cross_streets": ""
+    },
+    "coordinates": {
+        "latitude": 40.3774,
+        "longitude": -111.81147
+    },
+    "photos": [
+        "https://s3-media2.fl.yelpcdn.com/bphoto/DAa4iV5f-q_xMx-i3P3UDw/o.jpg",
+        "https://s3-media2.fl.yelpcdn.com/bphoto/2XkeT3HbTL5OqwSD17TcKg/o.jpg",
+        "https://s3-media2.fl.yelpcdn.com/bphoto/03Dq6Mm6KWwkhpz6KECb0A/o.jpg"
+    ],
+    "hours": [
+        {
+            "open": [
+                {
+                    "is_overnight": false,
+                    "start": "0800",
+                    "end": "1200",
+                    "day": 0
+                },
+                {
+                    "is_overnight": false,
+                    "start": "1400",
+                    "end": "1800",
+                    "day": 0
+                },
+                {
+                    "is_overnight": false,
+                    "start": "0800",
+                    "end": "1200",
+                    "day": 2
+                },
+                {
+                    "is_overnight": false,
+                    "start": "1400",
+                    "end": "1800",
+                    "day": 2
+                },
+                {
+                    "is_overnight": false,
+                    "start": "0800",
+                    "end": "1200",
+                    "day": 4
+                },
+                {
+                    "is_overnight": false,
+                    "start": "1400",
+                    "end": "1800",
+                    "day": 4
+                }
+            ],
+            "hours_type": "REGULAR",
+            "is_open_now": true
+        }
+    ],
+    "transactions": [],
+    "messaging": {
+        "url": "https://www.yelp.com/raq/4mDnxk4oezRMlVUXo5MJ8A?adjust_creative=hE8bi2YODO-vfPOp0t5Rkw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=hE8bi2YODO-vfPOp0t5Rkw#popup%3Araq",
+        "use_case_text": "Message the Business"
+    }
+}
