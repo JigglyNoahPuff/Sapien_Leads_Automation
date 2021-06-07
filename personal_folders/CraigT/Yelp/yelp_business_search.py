@@ -39,8 +39,7 @@ meta3 = ['id','alias','name','image_url','is_claimed','is_closed','url','phone',
 business_df = pd.json_normalize(business_info_list, record_path=['categories'], meta=meta3, errors='ignore', record_prefix='categories_')
 
 csv_name = input("What do you want to name your file: ")
-business_df.to_csv(f"{csv_name}.csv")
-
+business_df.to_csv(f"./data/raw/{csv_name}.csv", index=False)
 
 # %%
 
