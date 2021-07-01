@@ -1,6 +1,5 @@
 import requests
 import pandas as pd
-import json
 
 
 
@@ -46,7 +45,8 @@ def get_place_details(place_ids, place_api_key):
 places_df = get_place_df(where=where, business_type=business_type)
 place_ids = get_place_ids(places_df)
 place_details_df = get_place_details(place_ids, place_api_key)
-
-print(places_df.head())
 print(place_details_df.head())
+google_csv_name = input('name the csv: ')
+
+place_details_df.to_csv(f'./data/raw/google/{google_csv_name}', index=False)
 
