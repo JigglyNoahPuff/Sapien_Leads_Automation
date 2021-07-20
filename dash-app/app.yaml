@@ -1,17 +1,16 @@
 service: default
-runtime: python37
+runtime: python38
 
-basic_scaling:
-    max_instances: 2
-    idle_timeout: 10m
+automatic_scaling:
+
 
 resources:
     cpu: 2
-    memory_gb: 2
+    memory_gb: 4
     disk_size_gb: 10
 
-entrypoint: gunicorn -b 0.0.0.0:8080 main:server
+entrypoint: gunicorn -b 0.0.0.0:8080 main:server --timeout 240
 
 env_variables:
-  GCP_PROJECT_NUM: "Sapien"
+  GCP_PROJECT_NUM: "seo-business-search-tool"
 
