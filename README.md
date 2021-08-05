@@ -1,8 +1,6 @@
-# Template Project Repo
+# Sapien Leads Automation
 
-- Project repos should be named [client]\_[project]\_[semesterletter][twodigityear]
-
-A blank project repository for folder structure and naming guidance.  The `confidentiality_agreement.md` can be posted as an issue and each student in the repository must sign it after getting access or their access will be removed.
+This is a repository for work I did for the Rexburg Business Development Center for the client "Sapien Designs SEO"
 
 ## High-level folders
 
